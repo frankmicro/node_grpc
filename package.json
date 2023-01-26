@@ -1,0 +1,31 @@
+{
+  "name": "node_grpc",
+  "version": "1.0.0",
+  "description": "grpc",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankmicro/node_grpc.git"
+  },
+  "keywords": [
+    "grpc"
+  ],
+  "author": "rohan parkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankmicro/node_grpc/issues"
+  },
+  "homepage": "https://github.com/frankmicro/node_grpc#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.17.1",
+    "grpc": "^1.24.2",
+    "hbs": "^4.1.0",
+    "uuid": "^7.0.2"
+  }
+}
